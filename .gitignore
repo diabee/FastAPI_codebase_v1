@@ -1,0 +1,37 @@
+# Python
+*/__pycache__/*
+*__pycache__*
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*log
+*.log.*
+
+# Data files
+*.csv
+*.xlsx
+
+# VS Code
+.vscode/
+
+# Version control
+.svn/*
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Poetry environment
+.venv
+.python-version
+
+# macOS
+.DS_Store
+
+# Environment files (keep .env.example)
+config/.env
+!config/.env.example
