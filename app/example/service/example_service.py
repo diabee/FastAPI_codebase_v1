@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List
 
 from app.example.exception import ExampleNotFoundException
 from app.example.models.dto.example_dto import ExampleDTO

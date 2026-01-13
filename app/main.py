@@ -45,7 +45,7 @@ if __name__ == "__main__":
     LoggingConfig.get_logger().info("Application START")
 
     uvicorn.run(
-        app="main:app",
+        app="app.main:app",
         host=os.getenv("HOST", "0.0.0.0"),
         app_dir=".",
         port=int(os.getenv("PORT", "8080")),
